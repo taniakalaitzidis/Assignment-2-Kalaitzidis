@@ -1,0 +1,115 @@
+.ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: black;
+    text-align: center;
+}
+
+li {
+    float: none;
+    display: inline-block;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 20px;
+}
+
+li a:hover {
+    background-color: orange;
+}
+
+div#first {
+    height: 250px;
+    width: 350px;
+    border: 5px solid hotpink;
+    margin: 0 auto;
+    overflow: scroll;
+    padding: 10px;
+    margin-top: 20px;
+}
+
+div#second {
+    background-image: url(nycbridge.jpg);
+    border: 5px solid black;
+    border-radius: 15px;
+    height: 200px;
+    width: 400px;
+    float: left;
+    margin: 40px;
+    position: absolute;
+    margin-top: 150px;
+    margin-right: auto;
+}
+
+div#third {
+    height: 250px;
+    width: 350px;
+    border: 5px solid black;
+    float: right;
+    margin: 40px;
+    margin-top: 150px;
+    margin-left: auto;
+}
+
+div#button {
+    list-style-type: none;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: orange;
+    color: aqua;
+    padding: 5px 30px 5px 30px;
+    border-radius: 8px;
+    margin-top: 450px;
+    margin-bottom: 20px;
+    float: right;
+}
+
+.p1 {
+    padding-top: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: small;
+    background-color: hotpink;
+    margin-top: auto;
+    margin-left: 0 auto;
+    margin-bottom: auto;
+}
+
+.p2 {
+    padding-top: 40px;
+    padding-right: 70px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: large;
+    background-color: pink;
+    margin-left: 0 auto;
+}
+
+.p3 {
+    padding-top: 35px;
+    padding-right: 70px;
+    position: relative;
+    bottom: 0;
+    left: 0;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: large;
+    background-color: lightpink;
+}
+
+.ul2 {
+    padding: 30px;
+    text-align: center;
+    list-style-type: none;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: black;
+    color: white;
+    margin-top: 550px;
+    margin-bottom: 20px;
+}
+
+
